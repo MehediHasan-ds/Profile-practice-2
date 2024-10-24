@@ -1,0 +1,78 @@
+/* shared styles */
+a{
+    text-decoration: none;
+}
+
+/* navbar */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    padding-left: 50px;
+}
+.navbar>.nav-items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+}
+.nav-items a{
+    padding: 10px;
+    color: black;
+}
+
+/* main */
+main{
+    background-color:bisque;
+}
+/* home page */
+.home-container{
+    display: flex;
+}
+.my-img{
+    max-width: 450px;
+    max-height: 550px;
+}
+
+.short-brief{
+    border: 2px solid black;    
+}
+.short-brief img{
+    max-width: 120px;
+    max-height: 170px;
+    padding: 5px;
+}
+.home-skills{
+    text-align: center;
+    
+}
+.home-experience{
+    border-top: 2px solid black;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.home-des{
+    align-items: center;
+    justify-items: center;
+}
+
+/* about */
+.about-container{
+    display: flex;
+    padding: 80px 80px 0px 80px;
+    text-align: justify;
+}
+.meta-info{
+    display: flex;
+    justify-content: space-between;
+}
+.interests{
+    display: flex;
+    justify-content: space-between;
+}
+.interests h3{
+    background-color: aliceblue;
+    padding: 15px;
+}
